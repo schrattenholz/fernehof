@@ -18,7 +18,7 @@
 </div>
 <% end_if %>
 <% loop ContentObjects.Sort('SortID') %>
-	<% if not $Content %>
+	<% if not $Top.Content %>
 		$renderIT
 	<% else %>
 	<% if not $First %>
