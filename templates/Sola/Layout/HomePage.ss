@@ -18,11 +18,16 @@
 </div>
 <% end_if %>
 <% loop ContentObjects.Sort('SortID') %>
+	<% if not $Content %>
+		$renderIT
+	<% else %>
 	<% if not $First %>
 			
 			$renderIT
 			
 		<% end_if %>
-	<% end_loop %>
+	<% end_if %>		
+<% end_loop %>
+
 
 
