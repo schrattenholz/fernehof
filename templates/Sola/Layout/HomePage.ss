@@ -1,6 +1,7 @@
 	<% include Schrattenholz\Slider\Includes\Slider %>
 	<% include CallToActions %>
    <!-- Banners-->
+   <% if $Content %>
 <div class="spacer-white bg-white py-5">
     <section class="container pb-4 mb-md-3">
       <div class="row">
@@ -15,6 +16,7 @@
       </div>
     </section>
 </div>
+<% end_if %>
 <% loop ContentObjects.Sort('SortID') %>
 	<% if not $First %>
 			
