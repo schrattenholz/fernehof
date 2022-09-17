@@ -55,7 +55,7 @@
                 Copyright $Now.Year, $SiteConfig.BusinessName, $SiteConfig.MainContact
               </div>
               <div class="col-md-6 text-center text-md-right mb-4">
-                Entwickelt von <a class="text-white" href="https://sola-soft.de" target="_blank" >Sola-Soft</a>, Fabian Schrattenholz
+                Entwickelt von <a class="text-darker" href="https://sola-soft.de" target="_blank" >Sola-Soft</a>, Fabian Schrattenholz
               </div>
             </div>
           </div>
