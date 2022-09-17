@@ -7,8 +7,8 @@
 				<div class="mx-auto py-lg-5 font-size-sm" style="max-width: 35rem;">
 				<% if $ShowTitle %>
 							<h2  class="<% if $SubHead %>mb-0<% end_if %>">$Title</h2>
-							<% if $SubHead %>
-							<h6 class="font-size-lg font-weight-normal  pb-4">$SubHead</h6>
+							<% if $SubTitle %>
+							<h6 class="font-size-lg font-weight-normal  pb-4">$SubTitle</h6>
 							<% end_if %>
 						<% end_if %>
 						$Content
