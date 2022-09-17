@@ -9,7 +9,9 @@
 
 <% loop ContentObjects.Sort('SortID') %>
 	<% if not $Top.Content %>
+		 <% if  $Layout.Title!="Teaser Box" %>
 		$renderIT
+		<% end_if %>
 	<% else %>
 	<% if not $First %>
 			
