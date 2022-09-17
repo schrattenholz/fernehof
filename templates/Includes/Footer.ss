@@ -1,9 +1,9 @@
     <!-- Footer-->
-    <footer class="spacer-dark bg-dark pt-5" id="footer" name="footer">
+    <footer class="spacer-white bg-white pt-5" id="footer" name="footer">
       <div class="container">
         <div class="row pb-2  font-size-ms">
           <div class="col-md-3 col-sm-6">
-            <div class="widget widget-links widget-light pb-2 mb-4">
+            <div class="widget widget-links widget-dark pb-2 mb-4">
               <h3 class="widget-title ">Adresse</h3>
               <ul class="widget-list">
                 $SiteConfig.BusinessName<br/>
@@ -14,7 +14,7 @@
             </div>
 			</div>
 			 <div class="col-md-3 col-sm-6">
-			<div class="widget widget-links widget-light pb-2 mb-4">
+			<div class="widget widget-links widget-dark pb-2 mb-4">
               <h3 class="widget-title">Kontakt</h3>
               <ul class="widget-list">
 			  <li><i class="fa fa-phone-square" aria-hidden="true"></i><span class="sr-only">Telefonnummer</span></span> <a href="tel:$SiteConfig.Phone" >$SiteConfig.Phone</a></li>
@@ -26,7 +26,7 @@
             </div>
           </div>
           <div class="col-md-2 col-sm-6">
-            <div class="widget widget-links widget-light pb-2 mb-4">
+            <div class="widget widget-links widget-dark pb-2 mb-4">
 			<h3 class="widget-title">Info</h3>
 
 			<ul class="list-unstyled">
