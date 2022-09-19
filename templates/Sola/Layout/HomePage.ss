@@ -7,7 +7,7 @@
  <% end_if %>
 <% end_loop %>
    <!-- Banners-->
- <div class="spacer-light bg-light pt-5">
+ <div class="spacer-light $ColorSet.Class pt-5">
     <section class="container">
       <div class="row">
         <div class="col-md-7 mb-4">
