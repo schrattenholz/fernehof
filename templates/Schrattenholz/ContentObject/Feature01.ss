@@ -3,7 +3,7 @@
 	<section class="row no-gutters ">
 
         <!-- Product grid (carousel)-->
-		<div class="col-md-6 pt-4 pt-md-0 d-flex">
+		<div class="mx-auto py-lg-5 font-size-sm" style="max-width: 35rem;">
 			<div style="align-self:center;">
 				<h2 class="bg-headline bg-headline-before"><span>$Title</span></h2>
 				$Content
