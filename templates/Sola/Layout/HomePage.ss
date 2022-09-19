@@ -1,7 +1,7 @@
 	<% include Schrattenholz\Slider\Includes\Slider %>
 	<% include CallToActions %>
 <% loop ContentObjects.Sort('SortID') %>
- <% if $First &&  $Layout.Title=="Teaser Box" %>
+ <% if $First &&  $ClassName="Schrattenholz\ContentObject\TeaserBox" %>
  $renderIT
 
  <% end_if %>
@@ -16,7 +16,7 @@
         <div class="col-md-5 mb-4">
 		$ContentObjects.Filter("SortID",2).First.ClassName
 		<% loop $ContentObjects %>
-				<% if $ClassName=="Schrattenholz\ContentObject\CO_Infobox" && $Pos==2%>
+				<% if $ClassName=="Schrattenholz\ContentObject\CO_Infobox" && $Pos==2 %>
 					$renderIT
 				<% end_if %>
 		<% end_loop %>
@@ -26,7 +26,7 @@
 </div>
 <% loop ContentObjects.Sort('SortID') %>
 	<% if not $Top.Content %>
-		 <% if  $Layout.Title!="Teaser Box" %>
+		 <% if  $ClassName!="Schrattenholz\ContentObject\TeaserBox" $ClassName!="Schrattenholz\ContentObject\CO_Infobox" %>
 		$renderIT
 		<% end_if %>
 	<% else %>
