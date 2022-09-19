@@ -16,7 +16,7 @@
         <div class="col-md-5 mb-4">
 		$ContentObjects.Filter("SortID",2).First.ClassName
 		<% loop $ContentObjects %>
-				<% if $ClassName=="Schrattenholz\ContentObject\CO_Infobox" && $Pos==2 %>
+				<% if $ClassName=="Schrattenholz\ContentObject\CO_Infobox" %>
 					$renderIT
 				<% end_if %>
 		<% end_loop %>
@@ -26,14 +26,14 @@
 </div>
 <% loop ContentObjects.Sort('SortID') %>
 	<% if not $Top.Content %>
-		 <% if  $ClassName!="Schrattenholz\ContentObject\TeaserBox" $ClassName!="Schrattenholz\ContentObject\CO_Infobox" %>
+		 <% if  $ClassName!="Schrattenholz\ContentObject\TeaserBox" && $ClassName!="Schrattenholz\ContentObject\CO_Infobox" %>
 		$renderIT
 		<% end_if %>
 	<% else %>
 	<% if not $First %>
-			
+			<% if  $ClassName!="Schrattenholz\ContentObject\TeaserBox" && $ClassName!="Schrattenholz\ContentObject\CO_Infobox" %>
 			$renderIT
-			
+			<% end_if %>
 		<% end_if %>
 	<% end_if %>		
 <% end_loop %>
