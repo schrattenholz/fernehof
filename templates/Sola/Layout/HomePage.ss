@@ -3,10 +3,7 @@
 <% loop ContentObjects.Sort('SortID').First %>
  <% if  $Layout.Title=="Teaser Box" %>
  $renderIT
- <% end_if %>
-<% end_loop %>
-   <!-- Banners-->
-<div class="spacer-light bg-light pt-5">
+ <div class="spacer-light bg-light pt-5">
     <section class="container">
       <div class="row">
         <div class="col-md-7 mb-4">
@@ -14,12 +11,16 @@
         </div>
         <div class="col-md-5 mb-4">
 
-			$ContentObjects.Sort('SortID').First.Next.renderIT
+			$Next.renderIT
 
           </div>
       </div>
     </section>
 </div>
+ <% end_if %>
+<% end_loop %>
+   <!-- Banners-->
+
 <% loop ContentObjects.Sort('SortID') %>
 	<% if not $Top.Content %>
 		 <% if  $Layout.Title!="Teaser Box" %>
