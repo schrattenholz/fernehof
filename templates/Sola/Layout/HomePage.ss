@@ -14,7 +14,6 @@
               $Top.Content
         </div>
         <div class="col-md-5 mb-4">
-		$ContentObjects.Filter("SortID",2).First.ClassName
 		<% loop $ContentObjects %>
 				<% if $ClassName=="Schrattenholz\ContentObject\CO_Infobox" %>
 					$renderIT
