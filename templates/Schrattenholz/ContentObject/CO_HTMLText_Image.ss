@@ -4,7 +4,7 @@
     <section class="row no-gutters ">
 		
 			<div class="col-md-6 bg-position-center bg-size-cover <% if $ImageLeft %>order-md-2<% else %>order-md-1<% end_if %>">
-				<div class="mx-auto py-lg-5 font-size-sm" style="max-width: 35rem;">
+				<div class="mx-auto py-lg-5" style="max-width: 35rem;">
 				<% if $ShowTitle %>
 							<h2  class="<% if $SubHead %>mb-0<% end_if %>">$Title</h2>
 							<% if $SubTitle %>
