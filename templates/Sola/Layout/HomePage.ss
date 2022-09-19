@@ -1,26 +1,28 @@
 	<% include Schrattenholz\Slider\Includes\Slider %>
 	<% include CallToActions %>
-<% loop ContentObjects.Sort('SortID').First %>
- <% if  $Layout.Title=="Teaser Box" %>
+<% loop ContentObjects.Sort('SortID') %>
+ <% if $First &&  $Layout.Title=="Teaser Box" %>
  $renderIT
+
+ <% end_if %>
+<% end_loop %>
+   <!-- Banners-->
  <div class="spacer-light bg-light pt-5">
     <section class="container">
       <div class="row">
         <div class="col-md-7 mb-4">
-              $Content
+              $Top.Content
         </div>
         <div class="col-md-5 mb-4">
-
-			$Next.renderIT
-
+		<% loop ContentObjects.Filter("SortID",2).First %>
+				<% if $ClassName=="Schrattenholz\ContentObject\CO_Infobox" %>
+					$renderIT
+				<% end_if %>
+		<% end_loop %>
           </div>
       </div>
     </section>
 </div>
- <% end_if %>
-<% end_loop %>
-   <!-- Banners-->
-
 <% loop ContentObjects.Sort('SortID') %>
 	<% if not $Top.Content %>
 		 <% if  $Layout.Title!="Teaser Box" %>
