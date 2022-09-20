@@ -17,7 +17,7 @@
                            <ul class="list-unstyled">
                                <li class="media mb-0">
                                   <h4>
-								<i class="czi-location"></i></span>
+								<i class="czi-location text-secondary"></i></span>
 								</h4>
                                    <div class="media-body  pl-3">
                                        <address>
@@ -29,7 +29,7 @@
                                </li>
 							<li class="media mb-0 pt-2">
 							 <h4>
-                                   <i class="czi-phone"></i>
+                                   <i class="czi-phone text-secondary"></i>
 								</h4>
 								<div class="media-body  pl-3">
 								$SiteConfig.Phone
@@ -38,7 +38,7 @@
 							<% if $SiteConfig.Fax %>
 							<li  class="media mb-0 pt-2">
 							 <h4>
-                               <i class="czi-document"></i>
+                               <i class="czi-document text-secondary"></i>
 							</h4>
 							<div class="media-body pl-3">
 							$SiteConfig.Fax
@@ -47,7 +47,7 @@
 							<% end_if %>
                                <li class="media mb-0 pt-2">
 							 <h4>
-                                   <i class="czi-mail"></i>
+                                   <i class="czi-mail text-secondary"></i>
 								</h4>
 								<div class="media-body pl-3">
 								<a href="mailto:$SiteConfig.Email">$SiteConfig.Email</a>
@@ -55,7 +55,7 @@
                                </li>
                                <li class="media mb-0 pt-2">
 							 <h4>
-                                   <i class="czi-globe"></i>
+                                   <i class="czi-globe text-secondary"></i>
 								</h4>
 								<div class="media-body  pl-3">
 								$SiteConfig.Website 
@@ -63,7 +63,7 @@
                                </li>
 							<li class="media mb-0 pt-2">
 							 <h4>
-								<i class="czi-delivery"></i>
+								<i class="czi-delivery text-secondary"></i>
 								</h4>
 								<div class="media-body pl-3">
 								<a href="http://maps.google.com/maps?daddr=$SiteConfig.Street, $SiteConfig.City $SiteConfig.ZIP, $SiteConfig.Countr" target="_blank">Zum Routenplaner</a>
