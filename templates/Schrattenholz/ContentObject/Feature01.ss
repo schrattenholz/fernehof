@@ -1,4 +1,4 @@
-<div  class=" colorSet{$ColorSetID} py-5 container-fluid px-0">
+<div  class=" colorSet{$ColorSetID}container-fluid px-0">
 	<!-- Featured category -->
 	<section class="row no-gutters ">
 
