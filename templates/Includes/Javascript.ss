@@ -1,4 +1,4 @@
-<script type="text/javascript" src="$ThemeDir/javascript/theme.min.js"></script>
+
 <script>
 
 $.fn.serializeObject = function()

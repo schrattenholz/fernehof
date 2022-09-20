@@ -30,7 +30,7 @@
 		<% end_if %>
 	<% else %>
 	<% if not $First %>
-			<% if  $Layout.Title="Teaser Box" && $ClassName!="Schrattenholz\ContentObject\CO_Infobox" %>
+			<% if  $Layout.Title!="Teaser Box" && $ClassName!="Schrattenholz\ContentObject\CO_Infobox" %>
 			$renderIT
 			<% end_if %>
 		<% end_if %>
