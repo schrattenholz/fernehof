@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-      <div class="pt-5">
+      <div class="pt-5 colorSet1">
         <div class="container">
             <div class="row pb-2 font-size-xs opacity-50 text-center text-md-left">
               <div class="col-md-6 text-center text-md-left mb-4">
