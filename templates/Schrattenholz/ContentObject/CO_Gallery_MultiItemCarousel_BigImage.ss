@@ -2,7 +2,7 @@
 <section class="container-fluid p-0">
 <div class="row no-gutters">
 	<div class="col-md-6 bg-position-center bg-size-cover">
-		<div class="row">
+		<div class="row no-gutters">
 			<div class="card border-0 p-0">
 				<div class="card-body p-0">
 					<div  id="thumbCarousel$ID" class="carousel slide cz-carousel cz-dots-disabled">
@@ -15,7 +15,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row no-gutters">
 			<!-- Product grid (carousel)-->
 			<div class="card border-0 col-12 py-0 px-4">
 				<div class="cz-carousel ">
