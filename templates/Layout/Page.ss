@@ -24,7 +24,7 @@
 
    <!-- Banners-->
    <% if $Content || $Form %>
-<div class="<% if $MainImage %>spacer-white<% end_if %> bg-white py-5 colorSet{$ColorSetID}">
+<div class="<% if $MainImage %>spacer-white<% end_if %> py-5 colorSet{$ColorSetID}">
     <section class="container-fluid pb-4 mb-md-3 mt-2 mt-sm-5">
       <div class="row no-gutters">
         <div class="col-md-8 mb-4 mx-auto" style="max-width: 52rem;">
