@@ -5,7 +5,7 @@
         <!-- Product grid (carousel)-->
 		<div class="mx-auto py-lg-5 font-size-sm" style="max-width: 35rem;">
 			<div style="align-self:center;">
-				<h2 class="bg-headline bg-headline-before"><span>$Title</span></h2>
+				<h2 class=""><span>$Title</span></h2>
 				$Content
 			</div>
         </div>
