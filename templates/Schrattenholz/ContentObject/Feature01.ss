@@ -13,7 +13,7 @@
 				<div class="row mx-n2">
 				<% if $LimitedEntries.Count>=4 %>
 					<% loop $LimitedEntries.Limit(4) %> 
-					  <div class="col-12 col-sm-6 col-lg-4 px-2 <% if $Pos==1 || $Pos==2 %>mb-sm-3<% end_if %>">
+					  <div class="col-12 col-sm-6 col-sm-6 px-2 <% if $Pos==1 || $Pos==2 %>mb-sm-3<% end_if %>">
 						<div class="card product-card card-static bg-transparent ">
 							<img class="w-100" src="$DefaultImage.Fill(278,278).URL" alt="$Title">
 						</div>
