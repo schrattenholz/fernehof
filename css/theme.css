@@ -17169,6 +17169,10 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+  font-family: "Caveat Brush",sans-serif;
+}
+
 body {
   /*
 	background-image: url("../img/main-bg.jpg");
