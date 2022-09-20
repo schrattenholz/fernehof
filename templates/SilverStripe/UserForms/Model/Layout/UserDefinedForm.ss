@@ -23,7 +23,7 @@
 <% end_if %>
 <!-- Split section: Map + Contact form-->
 <div class="colorSet{$ColorSetID}">
-	<section class="container pb-4 mb-md-3 mt-2 mt-sm-5 " >
+	<section class="container p-4 mb-md-3  " >
 		<div class="row"> 
 			<aside class="col-md-8 mb-4">
 				$Content
