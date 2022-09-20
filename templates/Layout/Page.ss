@@ -7,7 +7,7 @@
  @media only screen and (min-width: 768px) {
    .headerImage{
    height:400px;
-	background:url($MainImage.URL) center center no-repeat fixed;
+	background:url($MainImage.URL) center top no-repeat fixed;
 	
  }
 }
