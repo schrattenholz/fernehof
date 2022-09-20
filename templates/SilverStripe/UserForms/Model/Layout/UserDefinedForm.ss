@@ -1,6 +1,6 @@
 <!-- Split section: Map + Contact form-->
 <div>
-	<section class="container pb-4 mb-md-3 mt-2 mt-sm-5">
+	<section class="container pb-4 mb-md-3 mt-2 mt-sm-5 colorSet{$ColorSetID}" >
 		<div class="row"> 
 			<aside class="col-md-8 mb-4">
 				$Content
