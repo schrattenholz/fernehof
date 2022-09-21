@@ -47,23 +47,23 @@
 							  <h4>Kontaktdaten</h4>
 							  <dt>
 								  <dl class="row mb-0">
-									<dt class="col-sm-3 mb-0">Adresse</dt>
-									<dd class="col-sm-9 mb-0">$SiteConfig.MainContact</br>$SiteConfig.Street, $SiteConfig.ZIP $SiteConfig.City</dd>
+									<dt class="col-sm-3 mb-0 font-size-sm">Adresse</dt>
+									<dd class="col-sm-9 mb-0 font-size-sm">$SiteConfig.MainContact</br>$SiteConfig.Street, $SiteConfig.ZIP $SiteConfig.City</dd>
 								  </dl>
 								  <dl class="row mb-0">
-									<dt class="col-sm-3 mb-0">Fon</dt>
-									<dd class="col-sm-9 mb-0">$SiteConfig.Phone</dd>
+									<dt class="col-sm-3 mb-0 font-size-sm">Fon</dt>
+									<dd class="col-sm-9 mb-0 font-size-sm">$SiteConfig.Phone</dd>
 								  </dl>
 								
 								<% if $SiteConfig.Fax %>
 								  <dl class="row mb-0">
-									<dt class="col-sm-3 mb-0">Fax</dt>
-									<dd class="col-sm-9 mb-0">$SiteConfig.Fax</dd>
+									<dt class="col-sm-3 mb-0 font-size-sm">Fax</dt>
+									<dd class="col-sm-9 mb-0 font-size-sm">$SiteConfig.Fax</dd>
 								  </dl>
 								<% end_if %>
 															  <dl class="row mb-0">
-									<dt class="col-sm-3 mb-0">E-Mail</dt>
-									<dd class="col-sm-9 mb-0"><a href="mailto:$SiteConfig.Email">$SiteConfig.Email</a></dd>
+									<dt class="col-sm-3 mb-0 font-size-sm" >E-Mail</dt>
+									<dd class="col-sm-9 mb-0 font-size-sm"><a href="mailto:$SiteConfig.Email">$SiteConfig.Email</a></dd>
 								  </dl>
                                </dt>
 							</div>
