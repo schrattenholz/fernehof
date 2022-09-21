@@ -46,24 +46,24 @@
 							<div class="media-body mt-1 pl-3">
 							  <h4>Kontaktdaten</h4>
 							  <dt>
-								  <dl class="row">
-									<dt class="col-sm-3">Adresse</dt>
-									<dd class="col-sm-9">$SiteConfig.MainContact</br>$SiteConfig.Street, $SiteConfig.ZIP $SiteConfig.City</dd>
+								  <dl class="row mb-0">
+									<dt class="col-sm-3 mb-0">Adresse</dt>
+									<dd class="col-sm-9 mb-0">$SiteConfig.MainContact</br>$SiteConfig.Street, $SiteConfig.ZIP $SiteConfig.City</dd>
 								  </dl>
-								  <dl class="row">
-									<dt class="col-sm-3">Fon</dt>
-									<dd class="col-sm-9">$SiteConfig.Phone</dd>
+								  <dl class="row mb-0">
+									<dt class="col-sm-3 mb-0">Fon</dt>
+									<dd class="col-sm-9 mb-0">$SiteConfig.Phone</dd>
 								  </dl>
 								
 								<% if $SiteConfig.Fax %>
-								  <dl class="row">
-									<dt class="col-sm-3">Fax</dt>
-									<dd class="col-sm-9">$SiteConfig.Fax</dd>
+								  <dl class="row mb-0">
+									<dt class="col-sm-3 mb-0">Fax</dt>
+									<dd class="col-sm-9 mb-0">$SiteConfig.Fax</dd>
 								  </dl>
 								<% end_if %>
-															  <dl class="row">
-									<dt class="col-sm-3">E-Mail</dt>
-									<dd class="col-sm-9"><a href="mailto:$SiteConfig.Email">$SiteConfig.Email</a></dd>
+															  <dl class="row mb-0">
+									<dt class="col-sm-3 mb-0">E-Mail</dt>
+									<dd class="col-sm-9 mb-0"><a href="mailto:$SiteConfig.Email">$SiteConfig.Email</a></dd>
 								  </dl>
                                </dt>
 							</div>
