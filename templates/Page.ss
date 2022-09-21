@@ -18,7 +18,6 @@ $Layout
 <% include Toasts %>
 
 <% require themedJavascript('vendor.min') %>
-<% require themedJavascript('theme.min') %>
 <% include Javascript %>
 <% include OrderIncludes %>
 </body>
