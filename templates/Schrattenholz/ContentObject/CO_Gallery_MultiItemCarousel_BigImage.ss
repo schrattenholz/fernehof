@@ -17,9 +17,9 @@
 		</div>
 		<div class="row no-gutters">
 			<!-- Product grid (carousel)-->
-			<div class="card border-0 col-12 py-0 px-4">
+			<div class="card border-0 col-12 py-0 px-0">
 				<div class="cz-carousel ">
-					<div class="card-body cz-carousel-inner " data-carousel-options='{"items": 4, "nav": false, "gutter":0}'>
+					<div class="card-body p-0 cz-carousel-inner " data-carousel-options='{"items": 4, "nav": false, "gutter":0}'>
 						<% loop $Images %>		
 						<div data-slide-to="$Pos" data-target="#carouselExampleIndicators">
 							<a style="cursor:pointer;" onclick="javascript:var index$ID=$Pos-1;window['thumbCarousel$Up.ID'].goTo(index$ID);""><img src="$Image.Fill(278,278).URL" alt="Product"></a>
