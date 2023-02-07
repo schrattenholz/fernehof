@@ -38,7 +38,7 @@
 				<% if $Top.ShowQualityLabel %>   
 				 <div class="picLabel"><img src="/_resources/themes/sehnenmuehle/img/bioland.png" /></div>
 				<% end_if %>  
-				      <img class="cz-image" src="$CoverImage.ScaleWidth(600).URL"  alt="$CoverImage.URL">
+				      <img class="cz-image" src="$DefaultImage.ScaleWidth(600).URL"  alt="$DefaultImage.URL">
                     <!--<div class="cz-image-zoom-pane"></div>-->
                   </div>
                 
