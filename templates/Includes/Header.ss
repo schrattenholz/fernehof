@@ -35,6 +35,7 @@
 					</div>
 				</a>
 				-->
+				<% if $OrderConfig.ShopIsActive %>
 				<div class="navbar-tool dropdown ml-3 user-menue">
 					<a class="navbar-tool ml-1 ml-lg-0 mr-n1 mr-lg-2 " href="#signin-modal" data-target="#signin-modal" data-toggle="modal">
 						<div class="navbar-tool-icon-box">
@@ -62,6 +63,7 @@
               <div class="navbar-tool dropdown ml-3 basket-nav-list">
                       $BasketNavList
 			  </div>
+			  <% end_if %>
 			  <% if $SiteConfig.Facebook %>
 			  <a class="navbar-tool-icon-box bg-secondary dropdown-toggle ml-3 d-none d-md-block" href="$SiteConfig.Facebook"  target="_blank" id="facebook_icon">
 				<i class="navbar-tool-icon czi-facebook"></i>
