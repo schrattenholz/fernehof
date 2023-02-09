@@ -29,11 +29,11 @@
 	<![endif]-->
 	<% require themedCSS('vendor.min') %>
 	<% require themedCSS('theme.min') %>
-	<link rel="shortcut icon" href="$BaseHref$ThemeDir/img/favicon/favicon.ico" />
-	<link rel="apple-touch-icon" sizes="180x180" href="$BaseHref$ThemeDir/img/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="$BaseHref$ThemeDir/img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="$BaseHref$ThemeDir/img/favicon/favicon-16x16.png">
-	<link rel="manifest" href="$BaseHref$ThemeDir/img/favicon/favicon/manifest.json">
-	<link rel="mask-icon" href="$BaseHref$ThemeDir/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-
+	<link rel="apple-touch-icon" sizes="180x180" href="$BaseHref$ThemeDir/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="$BaseHref$ThemeDir/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="$BaseHref$ThemeDir/favicon/favicon-16x16.png">
+	<link rel="manifest" href="$BaseHref$ThemeDir/favicon/site.webmanifest">
+	<link rel="mask-icon" href="$BaseHref$ThemeDir/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 </head>

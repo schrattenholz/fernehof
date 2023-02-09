@@ -19,7 +19,8 @@
             "css",
             "img",
             "javascript",
-            "fonts"
+            "fonts",
+			"favicon"
         ]
 	}
 }
