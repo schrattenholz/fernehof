@@ -30,7 +30,6 @@
 			<h3 class="widget-title">Info</h3>
 
 			<ul class="list-unstyled">
-			<li>DE-&Ouml;KO-006</li>
 			  <li><a href="{$BaseHref}informationen/datenschutz" >Datenschutz</a></li>
 			   <li><a href="{$BaseHref}informationen/impressum">Impressum</a></li>
 			   <li><a href="{$BaseHref}informationen/agb">AGB</a></li>
