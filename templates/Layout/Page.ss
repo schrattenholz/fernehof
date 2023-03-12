@@ -22,7 +22,7 @@
 </div>
 <% end_if %>
 
-   <!-- Banners-->
+   <!-- Banners--> 
    <% if $Content || $Form %>
 <div class="<% if $MainImage %>spacer-white<% end_if %> py-5 colorSet{$ColorSetID}">
     <section class="container-fluid pb-4 mb-md-3 mt-2 mt-sm-5">
